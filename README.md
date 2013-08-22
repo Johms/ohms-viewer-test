@@ -91,9 +91,9 @@ III. Configuring the style values in the CSS file
 IV. Using the Viewer with your interview XML files exported from OHMS
 ---------------------------------------------------------------------
 
-After installing and configuring the Viewer, you can begin testing and using it immediately. You must have your interview files exported from OHMS in the directory you set for the "tmpDir" configuration property. The URL for using the Viewer would be your web site and the subdirectory for the Viewer along with the page that calls the interview file. An example is:
+After installing and configuring the Viewer, you can begin testing and using it immediately. You must have your interview files exported from OHMS in the directory you set for the "tmpDir" configuration property. The URL for using the Viewer would be your web site address and the subdirectory for the Viewer along with the page that calls the interview file. An example is:
 
-  http://www.myexamplesite.edu/viewer/render.php?cachefile=name_of_file.xml
+  http://www.myviewerexamplesite.edu/viewer/render.php?cachefile=name_of_file.xml
   
 If this URL does not load properly or you receive an error message about not finding the interview file, check the following:
 
