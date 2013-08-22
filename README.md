@@ -78,6 +78,8 @@ The next steps will require using a text editing program to create your configur
 11) Set the Open Graph image to use for links placed in social media sites ("open_graph_image" config property). This will be the image seen with links placed in social media site postings (it does not appear on the Viewer page). The image must reside in the root directory of your web site. An example is that if the image is "ourimage.jpg" in the "images" subdirectory of your site, you would enter: images/ourimage.jpg .
   
 Please note that the "title" that appears for links in social media sites using Open Graph is set by the "title" data field in the linked interview cache file.
+
+
  
 III. Configuring the style values in the CSS file
 --------------------------------------------
@@ -85,6 +87,21 @@ III. Configuring the style values in the CSS file
  The file css/custom_default.css contains a base set of style elements for the Viewer you can configure (The file css/viewer.css contains the overall CSS values if you wish to further change settings).  You can edit the  "background" attribute for body, #header, #footer, #audio-panel, or   #subjectPlayer to set the background color.  For example, if you want the footer to have a light red background, you can edit #footer to include the line
 
     background: #ff0000;
+    
+IV. Using the Viewer with your interview XML files exported from OHMS
+---------------------------------------------------------------------
+
+After installing and configuring the Viewer, you can begin testing and using it immediately. You must have your interview files exported from OHMS in the directory you set for the "tmpDir" configuration property. The URL for using the Viewer would be your web site and the subdirectory for the Viewer along with the page that calls the interview file. An example is:
+
+  http://www.myexamplesite.edu/viewer/render.php?cachefile=name_of_file.xml
+  
+If this URL does not load properly or you receive an error message about not finding the interview file, check the following:
+
+  * The subdirectory name where the Viewer is located is correct.
+  * The "tmpDir" in the configuration file is correct for the location where you placed your interview files exported from OHMS.
+  * The name of the XML file after "cachefile=" in the URL is correct.
+  * Check the permissions on the subdirectories for the Viewer and XML interview files to make sure that your web server can read/access files.
+
  
 
 Extending OHMS Viewer
