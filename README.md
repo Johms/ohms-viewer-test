@@ -6,7 +6,7 @@ Requirements
 ------------
 
 * PHP 5.3+
-* Tested with Apache httpd on Linux, but other setups (e.g., Windows/IIS) should also work. In the root directory of the Viewer, the file "render.php" is a symbolic link to the file "viewer.php" which may require recreating the symbolic link.
+* Tested with Apache httpd on Linux, but other setups (e.g., Windows/IIS) should also work.
 
 You will need to be able to add and create files on your web server to install the OHMS Viewer.  You can do simple customizations of the site with CSS.  More
 complex customizations require knowledge of PHP and JavaScript.
@@ -90,9 +90,9 @@ III. Configuring the style values in the CSS file
 IV. Using the Viewer with your interview XML files exported from OHMS
 ---------------------------------------------------------------------
 
-After installing and configuring the Viewer, you can begin testing and using it immediately. You must have your interview files exported from OHMS in the directory you set for the "tmpDir" configuration property. The URL for using the Viewer would be your web site address and the subdirectory for the Viewer along with the page that calls the interview file. An example is:
+After installing and configuring the Viewer, you can begin testing and using it immediately. You must have your interview files exported from OHMS in the directory you set for the "tmpDir" configuration property. The URL for using the Viewer would be your web site address and the subdirectory for the Viewer along with the page (viewer.php) that processes the interview file. An example is:
 
-  http://www.myviewerexamplesite.edu/viewer/render.php?cachefile=name_of_file.xml
+  http://www.myviewerexamplesite.edu/viewer/viewer.php?cachefile=name_of_file.xml
   
 If this URL does not load properly or you receive an error message about not finding the interview file, check the following:
 
