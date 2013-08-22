@@ -6,10 +6,9 @@ Requirements
 ------------
 
 * PHP 5.3+
-* Tested with Apache httpd on Linux, but other setups (e.g., Windows/IIS)
-  should also work.
+* Tested with Apache httpd on Linux, but other setups (e.g., Windows/IIS) should also work. In the root directory of the Viewer, the file "render.php" is a symbolic link to the file "viewer.php" which may require recreating the symbolic link.
 
-You will need to be able to add and create files to your web server to install OHMS Viewer.  You can do simple customizations of the site with CSS.  More
+You will need to be able to add and create files on your web server to install the OHMS Viewer.  You can do simple customizations of the site with CSS.  More
 complex customizations require knowledge of PHP and JavaScript.
 
 In the instructions below, file references (such as css/viewer.css) refer to the relative path to files from the extracted OHMS Viewer zip file.
