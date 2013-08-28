@@ -15,6 +15,8 @@ The OHMS Viewer includes:
 
     jQuery
     jQuery UI
+    Fancybox
+    Colorbox
     FlowPlayer
    
 
