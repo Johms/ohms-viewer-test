@@ -98,8 +98,6 @@ The next steps will require using a text editing program to create your configur
 11) Set the Open Graph image to use for links placed in social media sites ("open_graph_image" config property). This will be the image seen with links placed in social media site postings (it does not appear on the Viewer page). The image must reside in the root directory of your web site. An example is that if the image is "ourimage.jpg" in the "images" subdirectory of your site, you would enter: images/ourimage.jpg .
   
 Please note that the "title" that appears for links in social media sites using Open Graph is set by the "title" data field in the linked interview cache file.
-
-
  
 III. Configuring the style values in the CSS file
 --------------------------------------------
